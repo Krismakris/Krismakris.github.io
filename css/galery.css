@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.item-box {
+    column-count: 4;
+}
+
+img {
+    margin-bottom: 10px;
+    max-width: 100%;
+    display: block;
+   
+}
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+}
+#footer-content {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+}
+
+.fot {
+    width: 40%;
+    height: 70%;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    width: 100px;
+    height: 100px;
+}
+
+.footer:hover {
+    transform: scale(1.1);
+}
+#inst {
+    background-position: center;
+    background-size: cover;
+
+}
+#inst:hover {
+    filter: invert(180);
+}
+.logo {
+    width: 10%;
+    height: 90%;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    display: flex;
+    justify-content: end;
+    
+}
+.header_back {
+    background-color: black;
+    opacity: 0.5s;
+    width: 100%;
+    box-shadow: 2px;
+}
+.intro {
+    height: 100vh;
+    background: url();
+    background-size: cover; 
+
+}
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(161, 114, 212);
+    
+}
+header {
+    width: 100%;
+    height: 140px;
+
+}
+.header_back {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+#gal {
+    text-align: center;
+}
+.header_a {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    text-decoration: none;
+    color: burlywood;
+    
+}
+
+.header_a:hover {
+color: hotpink;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+h1 {
+    color: burlywood;
+    transition: color 0.4s ease-out;
+}
+
+h1:hover {
+    color: rgb(184, 85, 105);
+}
+.rek {
+    color: rgb(223, 198, 203);
+    
+}
+.item:hover {
+    transform: rotate(10deg);
+}
+.item {
+    transition: 0.4s ease-out;
+}

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.foto{
+    width: 48%;
+}
+.item{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-out;
+    opacity: 0.7;
+    z-index: 5;
+    filter: blur(1px);
+}
+.item:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 10;
+    box-shadow: 0 0 5px black;
+    filter: blur(0); 
+}
+header {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+#img1 {
+    
+}
+
+#img1:hover {
+    
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+}
+#footer-content {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.fot {
+    width: 40%;
+    height: 70%;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    width: 100px;
+    height: 100px;
+}
+
+.footer:hover {
+    transform: scale(1.1);
+}
+#inst {
+    background-position: center;
+    background-size: cover;
+
+}
+#inst:hover {
+    filter: invert(180);
+}
+h1 {
+    color: burlywood;
+    transition: color 0.4s ease-out;
+}
+
+h1:hover {
+    color: rgb(184, 85, 105);
+}
+
+.rek {
+    color: rgb(223, 198, 203);
+    
+}
+.logo {
+    width: 10%;
+    height: 90%;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    display: flex;
+    justify-content: end;
+    
+}
+.header_back {
+    background-color: black;
+    opacity: 0.5s;
+    width: 100%;
+    box-shadow: 2px;
+}
+.intro {
+    height: 100vh;
+    background: url();
+    background-size: cover; 
+
+}
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(161, 114, 212);
+    
+}
+header {
+    width: 100%;
+    height: 140px;
+
+}
+.header_back {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+#gal {
+    text-align: center;
+} 
+.header_a {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    text-decoration: none;
+    color: burlywood;
+    
+}
+
+.header_a:hover {
+color: hotpink;
+}
+
